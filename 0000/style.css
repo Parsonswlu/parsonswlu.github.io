@@ -1,0 +1,83 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+}
+
+#heading1 {
+    color:red;
+}
+
+.error {
+    color: red;
+}
+
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    border: 1px solid purple;
+}
+
+a:visited {
+    color: #0f0;
+}
+
+a:hover {
+    color: pink;
+}
+
+table, th, td {
+    border: 4px solid black;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+}
+
+ul > li {
+    display:block;
+}
+
+body {
+    background-image: url("../img/back.png");
+    background-repeat: repeat;
+}
+
+p.italic {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link, a:visited {
+    color: white;    
+    background-color: #1ebba3;    
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #099983;
+    text-decoration: none;
+    text-align: center;
+    font: 14px Arial, sans-serif;  
+}
+a:hover, a:active {
+    background-color: #9c6ae1;
+    border-color: #7443b6;
+}
+
+h6 {
+    width: 300px;
+    height: 200px;
+    padding: 15px; /* set padding 
+    for all four sides */
+    border: 10px solid black; /* set border for all four sides */
+    margin: 20px auto; /* set top and bottom margin to 20 pixels, and left and right margin to auto */
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    padding: 15px; /* set padding for all four sides */
+    border: 10px solid black; /* set border for all four sides */
+    margin: 20px auto; /* set top and bottom margin to 20 pixels, and left and right margin to auto */
+    overflow: scroll;
+
+}
