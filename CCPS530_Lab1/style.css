@@ -1,0 +1,53 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: lightblue;
+}
+
+.top-profile {
+    text-align: center;
+}
+
+.contact-info {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 4px 20px;
+}
+
+.section-heading {
+    color: royalblue;
+    text-align: center;
+}
+
+.section-text {
+    color: black;
+    text-align: justify;
+    padding: 4px 12px;
+}
+
+.employer-role-title {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.employer-tenure {
+    color: grey;
+    font-size: 12px;
+    font-style: italic;
+    margin: 8px;
+}
+
+.skills-section li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 4px 20px;
+    font-weight: bold;
+}
