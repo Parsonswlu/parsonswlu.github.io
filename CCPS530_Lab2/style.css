@@ -7,47 +7,48 @@ body {
     text-align: center;
 }
 
-.contact-info {
-    list-style-type: none;
+.contact-info table {
+    width:75%;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    border: 2px solid black;
+    padding: 4;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact-info li {
+.skills li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     padding: 4px 20px;
+    font-weight: bold;
 }
 
-.section-heading {
+.sections h2 {
     color: royalblue;
     text-align: center;
 }
 
-.section-text {
-    color: black;
-    text-align: justify;
-    padding: 4px 12px;
-}
-
-.employer-role-title {
+.sections h3 {
     color: darkblue;
     font-size: 16px;
     font-weight: bold;
     margin: 8px;
 }
 
-.employer-tenure {
+.sections h4 {
     color: grey;
     font-size: 12px;
     font-style: italic;
     margin: 8px;
 }
 
-.skills-section li {
-    display: inline-block;
+.sections p {
+    color: black;
+    text-align: justify;
+    padding: 4px 12px;
+}
+
+.sections li {
     font-size: 16px;
     padding: 4px 20px;
-    font-weight: bold;
 }
