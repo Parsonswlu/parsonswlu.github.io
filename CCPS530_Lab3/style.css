@@ -1,54 +1,17 @@
+html {
+    scroll-padding-top: 70px; /* height of sticky header */
+  }  
+
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: lightblue;
 }
 
-.top-profile {
-    text-align: center;
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.contact-info table {
-    width:75%;
-    text-align: center;
-    border: 2px solid black;
-    padding: 4px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.skills li {
+.navbar-nav li {
     display: inline-block;
-    font-size: 16px;
-    padding: 4px 20px;
-    font-weight: bold;
-}
-
-.sections h2 {
-    color: royalblue;
-    text-align: center;
-}
-
-.sections h3 {
-    color: darkblue;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 8px;
-}
-
-.sections h4 {
-    color: grey;
-    font-size: 12px;
-    font-style: italic;
-    margin: 8px;
-}
-
-.sections p {
-    color: black;
-    text-align: justify;
-    padding: 4px 12px;
-}
-
-.sections li {
-    font-size: 16px;
-    padding: 4px 20px;
 }
