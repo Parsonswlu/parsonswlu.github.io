@@ -1,0 +1,20 @@
+{
+    "items": [
+      {
+        "img_url": "img/andrewparsons_wfh.jpg",
+        "img_desc": "This is a picture when we started WFH with COVID"
+      },
+      {
+        "img_url": "img/pars_joc_alberta.jpg",
+        "img_desc": "This is a picture of my partner and me in Alberta"
+      },
+      {
+        "img_url": "img/pars_joc_nyc.jpg",
+        "img_desc": "This is us in New York City"
+      },
+      {
+        "img_url": "img/pars_remy.jpg",
+        "img_desc": "This is me with my cat, Remy"
+      }
+    ]
+}

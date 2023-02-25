@@ -36,9 +36,9 @@
                 </div>
             </div>
             <div class="text-right" id="home">
-                <p class="display-4">Andrew Parsons Resume 2023
-                    <img src="img/andrewparsons_wfh.jpg" alt="Image of Andrew Parsons" width="100">
-                </p>
+                <h4>Andrew Parsons Resume 2023</h4>
+                    <img class="load-image" src="img/andrewparsons_wfh.jpg" alt="Image of Andrew Parsons" width="100" height="100">
+                    <p class="load-text">This is an image of me when COVID wfh started</p>
             </div>
         </div>
     </nav>
@@ -152,6 +152,28 @@
                 $('.navbar-li').removeClass('active');
                 $(this).addClass('active');
             })
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            var idx = 0;
+            var timeDelay = 20000; // 20 seconds
+            setInterval(function () {
+                $.ajax({
+                    url: 'ajax/lab4_data.json',
+                    type: 'GET',
+                    dataType:'json',
+                    success: function(data) {
+                        $('.load-image').attr("src", data.items[idx%4].img_url)
+                        $('.load-text').text(data.items[idx%4].img_desc);
+                    },
+                    error: function(e) {
+                        console.log(e.message);
+                    }
+                })
+                idx += 1;
+            },timeDelay);
         });
     </script>
         
