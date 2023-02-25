@@ -1,0 +1,17 @@
+html {
+    scroll-padding-top: 180px; /* height of sticky header */
+  }  
+
+body {
+    background: lightblue;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
