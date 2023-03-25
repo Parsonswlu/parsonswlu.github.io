@@ -7,20 +7,25 @@ app.use(express.urlencoded({     // to support URL-encoded bodies
 })); 
 
 var users = [
-  {'user':'test'},
-  {'user':'test2'},
-  {'user':'test3'},
-  {'user':'test4'},
-  {'user':'test5'},
-  {'user':'test6'},
+  {'user':'test','password':'passtest'},
+  {'user':'test2','password':'passtest2'},
+  {'user':'test3','password':'passtest3'},
+  {'user':'test4','password':'passtest4'},
+  {'user':'test5','password':'passtest5'},
+  {'user':'test6','password':'passtest6'},
 ]
+
+app.get('/',function(req,res){
+  // res.send('Hello World!');
+  res.send('<h1>Home Page</h1><br><a href="/users/list">list of users</a> <br> <a href="users/add">add a user</a>');
+})
 
 
 app.get('/users/list', function(req, res){
 
    var html = '<p>'
    for (var i = 0; i < users.length; i++) {
-      html = html + users[i].user + '<br>';
+      html = html + users[i].user + ' ' + users[i].password + '<br>';
     }
     html += '</p>'
 
