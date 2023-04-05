@@ -10,8 +10,8 @@ async function run() {
     const db = client.db('ccps530_lab7');
     const coll = db.collection('books');
     // Query
-    const filter = {};
-    const query = await coll.findOne(filter);
+    // const filter = {};
+    const query = await coll.find({}).toArray();
     console.log(query);
   } finally {
     // Ensures that the client will close when you finish/error
